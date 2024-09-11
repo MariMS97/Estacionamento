@@ -2,7 +2,7 @@ public class Garagem {
     public boolean aceitarVeiculo(Veiculo veiculo){
         if(veiculo instanceof Motocicleta && veiculo.getPeso() > 400){
             return false;
-        }else(veiculo instanceof Caminhonete && veiculo.getPeso() > 6){
+        }else if(veiculo instanceof Caminhonete && veiculo.getPeso() > 6){
             return false;
         }
         return true;
